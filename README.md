@@ -7,14 +7,15 @@ This project offers a countdown timer that utilizes the Youtube API Sound Player
 ## Usage
 
 1. Access the timer through this [link](https://apption.co/embeds/965d7809).
-2. Click on the timer buttons to add time to the countdown:
+2. Copy link and paste as embed into your notion pages.
+3. Click on the timer buttons to add time to the countdown:
    - "+5 min": Adds 5 minutes to the current countdown.
    - "+15 min": Adds 15 minutes to the current countdown.
    - "+30 min": Adds 30 minutes to the current countdown.
    - "+60 min": Adds 60 minutes to the current countdown.
-3. Press the "Play" button to start the countdown.
-4. Use the "Pause" button to pause the countdown.
-5. Press the "End" button to reset the timer.
+4. Press the "Play" button to start the countdown.
+5. Use the "Pause" button to pause the countdown.
+6. Press the "End" button to reset the timer.
 
 ## Features
 
