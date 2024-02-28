@@ -1,5 +1,6 @@
 # Notion-Countdown-Timer
-This project offers a countdown timer that utilizes the Youtube API Sound Player, making it embeddable into Notion pages via [Apption.co](https://apption.co/embeds/965d7809). Users can easily set timers ranging from 5 minutes to 60 minutes and more to enjoy the convenience of a sound alarm upon completion.
+
+This project offers a countdown timer that utilizes the Youtube API Sound Player, making it embeddable into Notion pages via [Apption.co](https://apption.co/embeds/965d7809). Users can easily set timers ranging from 5 minutes to 60 minutes and more to enjoy the convenience of a sound alarm upon completion. 
 
 ![Timer Screenshot](https://github.com/ianTevesAcc/Notion-Countdown-Timer/blob/2a46c01a2e73d8a8b05bcfd7594c6f8b4df861c3/Screenshot%202024-02-28%20193010.png)
 
@@ -30,6 +31,11 @@ This project offers a countdown timer that utilizes the Youtube API Sound Player
 - **Saved Progress:** Implement browser storage to save the timer's progress, allowing it to resume from the last known time even after the page is exited or refreshed.
 - **Add GitHub Pages:** Enable open-source contributors to make their own changes to the codebase by hosting the project on GitHub Pages.
 - **Implement Testing:** Ensure functionality remains intact by incorporating tests to prevent potential issues or bugs before changes are merged into the repository.
+
+## Donation
+
+To upkeep this project and keep ADs away from your embed timer - please consider making a $1 donation once or monthly or whenever you can to support keeping this and future projects being free and available to you and everyone. Im a broke unemployed programmer so the help would be greatly appreciated 🙏
+[Make a 1 dollar Donation](https://ko-fi.com/ianteves)
 
 ## Bugs to Fix
 
