@@ -37,6 +37,7 @@ This project offers a countdown timer that utilizes the Youtube API Sound Player
    - **Timer State Memory:** Retain the state of the timer before it was last accessed - to continue same functionality when used again.
 - **Add GitHub Pages:** Enable open-source contributors to make their own changes to the codebase by hosting the project on GitHub Pages.
 - **Implement Testing:** Ensure functionality remains intact by incorporating tests to prevent potential issues or bugs before changes are merged into the repository.
+- **Add Browser Notifications:** Allow a chrome / edge browser to send notifications to user when timer equals 0.
 
 ## Bugs to Fix
 
