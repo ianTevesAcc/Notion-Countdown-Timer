@@ -75,6 +75,7 @@
         <!-- Buttons to control timer -->
         <button id="playBtn" class="play" onclick="toggleTimer()">Play</button>
         <button id="endBtn" class="end" onclick="resetTimer()">End</button>
+        <button onclick="showNotification()">Show Notification</button>
     </div>
 
     <!-- YouTube Player container -->
@@ -92,6 +93,25 @@
             tag.src = 'https://www.youtube.com/iframe_api';
             var firstScriptTag = document.getElementsByTagName('script')[0];
             firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+        }
+
+        // Request permission for the browser to display notifications
+        Notification.requestPermission().then(function(result) {
+            console.log('Notification permission:', result);
+        });
+
+        // Function to display a notification
+        function showNotification() {
+            if (Notification.permission === 'granted') {
+            var notification = new Notification('Task Timer', {
+                body: 'Task timer went off.',
+            });
+
+            notification.onclick = function() {
+                console.log('Notification clicked');
+                // You can define what should happen when the notification is clicked
+            };
+            }
         }
 
         // YouTube API callback function
