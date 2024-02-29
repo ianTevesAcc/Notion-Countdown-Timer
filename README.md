@@ -30,6 +30,9 @@ This project offers a countdown timer that utilizes the Youtube API Sound Player
 - **Custom Sounds:** Allow users to choose custom alarm sounds from a selection of options or provide their own sound URL.
 - **Custom Backgrounds:** Enable users to personalize the timer's appearance by selecting different background themes or uploading custom backgrounds.
 - **Saved Progress:** Implement browser storage to save the timer's progress, allowing it to resume from the last known time even after the page is exited or refreshed.
+   - **Time Elapsed Remembered:** Enable the program to retain the timer's progress, including the elapsed time since it was last active.
+   - **Page Specific Timer:** Utilize the webpage address to restrict the timer's functionality, ensuring it operates exclusively on the specified page.
+   - **Timer State Memory:** Retain the state of the timer before it was last accessed - to continue same functionality when used again.
 - **Add GitHub Pages:** Enable open-source contributors to make their own changes to the codebase by hosting the project on GitHub Pages.
 - **Implement Testing:** Ensure functionality remains intact by incorporating tests to prevent potential issues or bugs before changes are merged into the repository.
 
@@ -41,6 +44,7 @@ To upkeep this project and keep ADs away from your embed timer - please consider
 ## Bugs to Fix
 
 - **YouTube API Delay:** Address delay in YouTube API's response for timer sound.
+- **Play Button Bug:** Play button is accessible even when timer equals 0.
 
 ## Support and Contributions
 
