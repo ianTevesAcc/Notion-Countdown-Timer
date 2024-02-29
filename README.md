@@ -4,7 +4,7 @@ This project offers a countdown timer that utilizes the Youtube API Sound Player
 
 ![Timer Gif](https://github.com/ianTevesAcc/Notion-Countdown-Timer/blob/8211cd1fa9713cbc0bb946d0f3b3babbbd828545/chrome-capture-2024-2-28%20(1).gif)
 
-**GitHub Pages Timer Link:** [https://iantevesacc.github.io/Notion-Countdown-Timer/](https://iantevesacc.github.io/Notion-Countdown-Timer/)
+**GitHub Pages Demo Timer:** [https://iantevesacc.github.io/Notion-Countdown-Timer/](https://iantevesacc.github.io/Notion-Countdown-Timer/)
 
 ## Usage
 
