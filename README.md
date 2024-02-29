@@ -3,6 +3,7 @@
 This project offers a countdown timer that utilizes the Youtube API Sound Player, making it embeddable into Notion pages via [Apption.co](https://apption.co/embeds/965d7809). Users can easily set timers ranging from 5 minutes to 60 minutes and more to enjoy the convenience of a sound alarm upon completion. 
 
 ![Timer Gif](https://github.com/ianTevesAcc/Notion-Countdown-Timer/blob/8211cd1fa9713cbc0bb946d0f3b3babbbd828545/chrome-capture-2024-2-28%20(1).gif)
+**GitHub Pages Timer Link:** [https://iantevesacc.github.io/Notion-Countdown-Timer/](https://iantevesacc.github.io/Notion-Countdown-Timer/)
 
 ## Usage
 
@@ -36,15 +37,16 @@ This project offers a countdown timer that utilizes the Youtube API Sound Player
 - **Add GitHub Pages:** Enable open-source contributors to make their own changes to the codebase by hosting the project on GitHub Pages.
 - **Implement Testing:** Ensure functionality remains intact by incorporating tests to prevent potential issues or bugs before changes are merged into the repository.
 
-## Donation
-
-To upkeep this project and keep ADs away from your embed timer - please consider making a $1 donation once or monthly or whenever you can to support keeping this and future projects being free and available to you and everyone. Im a broke unemployed programmer so the help would be greatly appreciated 🙏
-[Make a 1 dollar Donation](https://ko-fi.com/ianteves)
-
 ## Bugs to Fix
 
 - **YouTube API Delay:** Address delay in YouTube API's response for timer sound.
 - **Play Button Bug:** Play button is accessible even when timer equals 0.
+- **Timer Display Empty:** Timer is empty instead of displaying 00:00:00 when first accessed.
+
+## Donation
+
+To upkeep this project and keep ADs away from your embed timer - please consider making a $1 donation once or monthly or whenever you can to support keeping this and future projects being free and available to you and everyone. Im a broke unemployed programmer so the help would be greatly appreciated 🙏
+[Make a 1 dollar Donation](https://ko-fi.com/ianteves)
 
 ## Support and Contributions
 
