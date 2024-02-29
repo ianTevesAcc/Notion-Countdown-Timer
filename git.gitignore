@@ -1,3 +1,3 @@
 # Ignore all files except notion_timer.html
 *
-!*.html
+!notion_timer.html
