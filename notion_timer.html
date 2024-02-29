@@ -114,7 +114,11 @@
 
         // Function to add time to the timer
         function addTime(duration) {
+            // Retrieve the stored timeLeft from localStorage
+            timeLeft = parseInt(localStorage.getItem('timeLeft')) || 0;
             timeLeft += duration;
+            // Store the updated timeLeft in localStorage
+            localStorage.setItem('timeLeft', timeLeft);
             displayTime();
         }
 
@@ -132,6 +136,14 @@
             }
         }
 
+        // Function to update timeLeft in localStorage every minute
+        function updateTimeInLocalStorage() {
+            localStorage.setItem('timeLeft', timeLeft);
+        }
+
+        // Call updateTimeInLocalStorage every minute
+        setInterval(updateTimeInLocalStorage, 60000); // 60000 milliseconds = 1 minute
+
         // Function to start countdown
         function startCountdown() {
             countdown = setInterval(function() {
@@ -144,6 +156,8 @@
                     document.getElementById('playBtn').disabled = true;
                     document.getElementById('playBtn').innerText = 'Play';
                 }
+                // Update timeLeft in localStorage every minute
+                updateTimeInLocalStorage();
             }, 1000);
         }
 
@@ -156,12 +170,31 @@
         function resetTimer() {
             stopCountdown();
             timeLeft = 0;
+            // Clear the stored timeLeft in localStorage
+            localStorage.removeItem('timeLeft');
             displayTime();
             document.getElementById('playBtn').classList.remove('disabled');
             document.getElementById('playBtn').disabled = false;
             document.getElementById('playBtn').innerText = 'Play';
             isPaused = true;
         }
+
+        // Function to initialize timer
+        function initTimer() {
+            // Check if there is stored timeLeft in localStorage
+            if (localStorage.getItem('timeLeft')) {
+                timeLeft = parseInt(localStorage.getItem('timeLeft'));
+                displayTime();
+                if (timeLeft > 0) {
+                    startCountdown();
+                    document.getElementById('playBtn').innerText = 'Pause';
+                    isPaused = false;
+                }
+            }
+        }
+
+        // Call initTimer when the page loads
+        window.onload = initTimer;
 
         // Function to display time
         function displayTime() {
